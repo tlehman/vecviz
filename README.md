@@ -14,7 +14,7 @@ To visualize these high-dimensional embeddings, we use dimensionality reduction 
 
 ## Demo
 
-<video src="demo.mp4" controls width="600"></video>
+[Download and view demo video](demo.mp4)
 
 ### Dimensionality Reduction Methods
 
