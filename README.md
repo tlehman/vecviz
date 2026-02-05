@@ -12,6 +12,10 @@ Let $p \in A^*$ be a prompt, then when you pass that prompt into the [ollama](ht
 
 To visualize these high-dimensional embeddings, we use dimensionality reduction techniques to project from $\mathbb{R}^{3072}$ down to $\mathbb{R}^3$.
 
+## Demo
+
+<video src="demo.mp4" controls width="600"></video>
+
 ### Dimensionality Reduction Methods
 
 Common techniques for reducing dimensionality while preserving structure:
