@@ -14,7 +14,7 @@ To visualize these high-dimensional embeddings, we use dimensionality reduction 
 
 ## Demo
 
-[Download and view demo video](demo.mp4)
+[![VecViz Demo](https://img.youtube.com/vi/8_ow2s_KkL0/0.jpg)](https://youtu.be/8_ow2s_KkL0?si=tauIQpGtnwZukTwe)
 
 ### Dimensionality Reduction Methods
 
