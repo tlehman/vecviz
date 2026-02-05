@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VecViz - Embedding Visualization</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <h1>VecViz</h1>
+            <p class="subtitle">3D Embedding Visualization</p>
+
+            <form id="embed-form">
+                <textarea id="prompt-input" placeholder="Enter text to embed..." rows="3"></textarea>
+                <button type="submit">Add Embedding</button>
+            </form>
+
+            <button id="recompute-btn">Recompute t-SNE</button>
+
+            <div id="status"></div>
+
+            <div id="stats">
+                <span id="point-count">0 points</span>
+            </div>
+
+            <div id="point-info">
+                <h3>Selected Point</h3>
+                <p id="point-text">Hover over a point to see its text</p>
+            </div>
+        </div>
+        <div id="scatter-container"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.125.2/build/three.min.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
